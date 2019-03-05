@@ -1,0 +1,43 @@
+body{
+    background-image: url("../images/background.jpg");   
+}
+
+.jumbotron{
+    background-color: rgb(211, 132, 127);
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+
+}
+
+.lead{
+  text-align: left;
+  font-size: 15px;  
+  font-weight: bold;
+}
+
+p{
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    
+}
+
+#randomNumber{
+    background-color: rgb(209, 124, 118);
+    text-align: center;
+}
+
+#totalScore{
+    background-color: rgb(209, 124, 118);
+    text-align: center;
+}
+
+#wins{
+    background-color: rgb(209, 124, 118);
+    text-align: center;
+}
+
+#losses{
+    background-color: rgb(209, 124, 118);
+    text-align: center;
+}
