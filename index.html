@@ -18,16 +18,16 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
     <!-- Jquery -->
-    <script src="assets/javascript/game.js"></script>
+    
     <script src="https://code.jquery.com/jquery.js"></script>
 
 </head>
 
 <body>
-        
+      
         
     <div class="jumbotron">
-        <h1 class="display-4">GAME</h1>
+        <h1 class="display-4">Fancy Pets, the Game</h1>
         <!-- <p class="lead"> Instructions: 
             <br>
             A number will be randomly generated below. 
@@ -49,6 +49,7 @@
                     <p> Random Number</p>
                 </div>
             </div>
+            
             <div class="col-sm-6">
                 <!-- Total Score Box -->
                 <div id="totalScore">
@@ -57,21 +58,27 @@
             </div>
         </div>
 
+        
         <div class="row">
             <div class="col-sm-12">
+               
                 <!-- 4 Animal Frames -->
-                <img src="assets/images/Ruffles.jpg" height="300" width="250">
-                <img src="assets/images/Petals.jpg" height="300" width="250">
-                <img src="assets/images/General.jpg" height="300" width="250">
-                <img src="assets/images/Glasses.jpg" height="300" width="250">
+                <img src="assets/images/Ruffles.jpg" height="300" width="250" id="Ruffles">
+                <img src="assets/images/Petals.jpg" height="300" width="250" id="Petals">
+                <img src="assets/images/General.jpg" height="300" width="250" id="General">
+                <img src="assets/images/Glasses.jpg" height="300" width="250" id="Glasses">
+           
             </div>
         </div>
+
+        <br>
 
         <div class="row">
             <div class="col-sm-12">
                 <div id="wins">
                     <p>Wins</p>
                 </div>
+                <br>
                 <div id="losses">
                     <p>Losses</p>
                 </div>
@@ -79,6 +86,8 @@
             </div>
         </div>
     </div>
+
+    <script src="assets/javascript/game.js"></script> 
 
 
 
