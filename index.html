@@ -15,6 +15,8 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    
     <!-- My css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
     <!-- Jquery -->
@@ -27,14 +29,10 @@
       
         
     <div class="jumbotron">
-        <h1 class="display-4">Fancy Pets, the Game</h1>
-        <!-- <p class="lead"> Instructions: 
+        <h1 class="display-4">Fancy Pets <br> the Game</h1>
+        <p class="lead"> 
             <br>
-            A number will be randomly generated below. 
-            <br>
-            Your goal is to match that number by clicking on the different important figures of pet history below. Each round, each painting will house a different number. Click away as many times as you need until the number you generate matches the random number. 
-            <br>
-            If you go over or under, you lose. Best of luck!</p> -->
+          Click on any portrait to begin! </p>
         <hr class="my-4">
         <p></p>
     </div>
@@ -58,29 +56,32 @@
             </div>
         </div>
 
+        <br>
+        
+
         
         <div class="row">
             <div class="col-sm-12">
-               
                 <!-- 4 Animal Frames -->
-                <img src="assets/images/Ruffles.jpg" height="300" width="250" id="Ruffles">
+                <img src="assets/images/Ruffles.jpg" height="300" width="250"  id="Ruffles">
                 <img src="assets/images/Petals.jpg" height="300" width="250" id="Petals">
                 <img src="assets/images/General.jpg" height="300" width="250" id="General">
                 <img src="assets/images/Glasses.jpg" height="300" width="250" id="Glasses">
-           
             </div>
         </div>
 
         <br>
 
+
         <div class="row">
             <div class="col-sm-12">
-                <div id="wins">
-                    <p>Wins</p>
+                <div class="score">
+                    <p>Wins: <span id="wins"> </span>
+                    </p>
                 </div>
                 <br>
-                <div id="losses">
-                    <p>Losses</p>
+                <div class="score">
+                    <p>Losses: <span id="losses"> </span></p>
                 </div>
 
             </div>
