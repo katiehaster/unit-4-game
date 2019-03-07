@@ -8,7 +8,7 @@ This game allows users to interact with what they see on the page to play a simp
 
 Why the project is useful:
 
-It was more useful to me as a learning tool than it would be to anone who plays it.
+It was more useful to me as a learning tool than it would be to anyone who plays it.
 
 How users can get started with the project:
 
