@@ -1,16 +1,27 @@
-# unit-4-game
-
-To get in the hang of README's I'm going to do this:
-
-What the project does:
+# Fancy Pets
 
 This game allows users to interact with what they see on the page to play a simple game, kind of like an interactive game of "Memory."
+The user will see a "Random Number" generated on the left side. Each fancy pet is randomly assigned a number. Click the pet portraits to reach the random number EXACTLY. Don't go over, don't go under!
 
-Why the project is useful:
+## Components Used
 
-It was more useful to me as a learning tool than it would be to anone who plays it.
+* HTML
+* CSS
+* Javascript
+* jQuery/ajax
+* Bootstrap
+* Google Fonts
 
-How users can get started with the project:
+## Deployed Git Pages Link
 
-Begin to play by clicking on a portrait!
+https://katiehaster.github.io/unit-4-game/
+
+## Github Link
+
+https://github.com/katiehaster/unit-4-game
+
+## Author
+
+Katie Haster
+
 
